@@ -1,0 +1,40 @@
+body {
+  background: url(image.png) no-repeat;
+  background-size: cover;
+}
+.calculator {
+  margin-top: 200px;
+  margin-right: 200px;
+  width: 50%;
+  height: 200%;
+  float: right;
+  font-family: "Bebas Neue", sans-serif;
+  border: 2px solid #ccc;
+  padding: 40px 12px;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+}
+.calculator button {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px 9px;
+  background-color: black;
+  color: aliceblue;
+  padding: 15px 40px;
+  border: 2px solid green;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.calculator button:hover {
+  background-color: rgb(70, 50, 50);
+}
+.calculator input {
+  width: 250px;
+  height: 80px;
+  font-size: 20px;
+  text-align: right;
+  margin-bottom: 10px;
+}
